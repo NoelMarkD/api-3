@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background: rgb(230, 226, 226);
+}
+
+header {
+    padding: 20px;
+    background: rgb(100, 100, 243);
+    border: black solid 2px;
+}
+
+.h1 {
+    color: var(--prim);
+    font-size: calc(38px + (56 - 38) * ((100vw - 300px) / (1600 -300)));
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: white;
+    font-size: 32px;
+}
+
+.avatar-single-link {
+    font-size: 20px;
+}
+
+footer {
+    padding: 20px;
+    background: rgb(100, 100, 243);
+    border: black solid 2px;
+}
+
+.top {
+    color: white;
+}
